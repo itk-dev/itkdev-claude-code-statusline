@@ -1,7 +1,7 @@
 {
   "name": "itkdev-statusline",
   "description": "Claude Code statusline with git branch, plan progress, and context window usage",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "author": {
     "name": "ITK Dev",
     "email": "itkdev@mkb.aarhus.dk"
