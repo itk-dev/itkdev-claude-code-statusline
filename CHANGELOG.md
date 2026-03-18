@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Added
+
+- CI workflow to enforce version bump in `plugin.json` on PRs to `main`
+
 ### Fixed
 
 - Add missing `type` field in statusLine configuration instructions (#1)
