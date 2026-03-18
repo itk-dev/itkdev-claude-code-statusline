@@ -48,6 +48,7 @@ This copies the statusline script to `~/.claude/bin/statusline.sh` and configure
 ```json
 {
   "statusLine": {
+    "type": "command",
     "command": "bash ~/.claude/bin/statusline.sh"
   }
 }

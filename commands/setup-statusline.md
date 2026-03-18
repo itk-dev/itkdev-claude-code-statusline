@@ -19,7 +19,7 @@ Install the statusline script and configure Claude Code to use it.
 
 2. **Update `~/.claude/settings.json`** to set the `statusLine` command:
    - Read the existing `~/.claude/settings.json` (create it if missing)
-   - Set `"statusLine"` to `{"command": "bash ~/.claude/bin/statusline.sh"}`
+   - Set `"statusLine"` to `{"type": "command", "command": "bash ~/.claude/bin/statusline.sh"}`
    - Preserve all other existing settings
 
 3. **Confirm to the user** that setup is complete and they should restart Claude Code for the statusline to appear.
